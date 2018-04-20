@@ -22,7 +22,7 @@
 			utils.addImage(pixelate, "Pixelated Stripes");
 			
 			Color [][] redTint = redTint(orig);
-			utils.addImage(redTint, "Red Tint");
+			utils.addImage(redTint, "Ghost Effect");
 			utils.display();
 		}
 		public static Color[][] redTint(Color[][] img) {
